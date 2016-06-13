@@ -154,7 +154,7 @@ namespace WebExPopupKiller
                 }
                 catch (ArgumentException)
                 {
-                    return;
+                    continue;
                 }
                 catch (Exception ex)
                 {
